@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Game-Off-2025"
 run/main_scene="uid://b3imdjb1so30p"
-config/features=PackedStringArray("4.5", "GL Compatibility")
+config/features=PackedStringArray("4.4", "GL Compatibility")
 boot_splash/image="uid://3wcjkonlcdnl"
 config/icon="uid://blfs8uoxro1yx"
 
@@ -102,4 +102,4 @@ textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 textures/vram_compression/import_etc2_astc=true
-environment/defaults/default_clear_color=Color(0.5058824, 0.5921569, 0.5882353, 1)
+environment/defaults/default_clear_color=Color(0.505882, 0.592157, 0.588235, 1)

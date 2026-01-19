@@ -103,11 +103,11 @@ draw_center = false
 
 [resource]
 default_base_scale = 1.23
-Button/colors/font_color = Color(0.2, 0.12941177, 0.007843138, 1)
+Button/colors/font_color = Color(0.2, 0.129412, 0.00784314, 1)
 Button/colors/font_disabled_color = Color(0.875, 0.875, 0.875, 0.5)
 Button/colors/font_focus_color = Color(0.95, 0.95, 0.95, 1)
-Button/colors/font_hover_color = Color(0.33203125, 0.21816023, 0.02204895, 1)
-Button/colors/font_hover_pressed_color = Color(0.71484375, 0.71484375, 0.71484375, 1)
+Button/colors/font_hover_color = Color(0.332031, 0.21816, 0.022049, 1)
+Button/colors/font_hover_pressed_color = Color(0.714844, 0.714844, 0.714844, 1)
 Button/colors/font_outline_color = Color(0, 0, 0, 1)
 Button/colors/font_pressed_color = Color(1, 1, 1, 1)
 Button/colors/icon_disabled_color = Color(1, 1, 1, 0.4)
@@ -127,7 +127,7 @@ Button/styles/focus = SubResource("StyleBoxFlat_ask2h")
 Button/styles/hover = SubResource("StyleBoxTexture_e6vsu")
 Button/styles/normal = SubResource("StyleBoxTexture_lk0ud")
 Button/styles/pressed = SubResource("StyleBoxTexture_oamol")
-Label/colors/font_color = Color(0.19921875, 0.12863982, 0.007003784, 1)
+Label/colors/font_color = Color(0.199219, 0.12864, 0.00700378, 1)
 Label/colors/font_outline_color = Color(0, 0, 0, 1)
 Label/colors/font_shadow_color = Color(0, 0, 0, 0)
 Label/constants/line_spacing = 3

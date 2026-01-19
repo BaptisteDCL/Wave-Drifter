@@ -25,7 +25,7 @@ var rng = RandomNumberGenerator.new()
 
 var enemy_count = 10
 var base_spawn_time = 10.0
-var spawn_interval: float = 2
+var spawn_interval: float = 1
 @onready var start_container: HBoxContainer = %StartContainer
 @onready var star_1: TextureRect = %Star1
 @onready var star_2: TextureRect = %Star2

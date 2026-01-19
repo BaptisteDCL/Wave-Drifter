@@ -3,31 +3,31 @@
 [ext_resource type="Texture2D" uid="uid://d4tjmg7v217m" path="res://Assets/isometric_tilesheet.png" id="1_n7qot"]
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_jjsbh"]
-polygon = PackedVector2Array(21.1334, -70.86434, -5.66555, -76.080246, -28.68747, -58.27423, -22.032692, -19.784462, -6.744705, -15.287994, -6.9245605, -9.5325165, -16, 0, -5.125969, 7.194351, 13.559863, 1.2200685, 5.8454056, -9.5325165, 6.744705, -18.345589, 18.435524, -17.806015, 27.608315, -37.590477)
+polygon = PackedVector2Array(21.1334, -70.8643, -5.66555, -76.0802, -28.6875, -58.2742, -22.0327, -19.7845, -6.74471, -15.288, -6.92456, -9.53252, -16, 0, -5.12597, 7.19435, 13.5599, 1.22007, 5.84541, -9.53252, 6.74471, -18.3456, 18.4355, -17.806, 27.6083, -37.5905)
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_rij37"]
-polygon = PackedVector2Array(6.0252686, 2.3381653, 0.98921967, 5.5756226, -6.0777435, 4.961128, -6.9245605, 1.079155, -2.0683746, -14.568558, 1.528801, -14.388695, 4.5863953, -2.5180206)
+polygon = PackedVector2Array(6.02527, 2.33817, 0.98922, 5.57562, -6.07774, 4.96113, -6.92456, 1.07915, -2.06837, -14.5686, 1.5288, -14.3887, 4.5864, -2.51802)
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_f3sjp"]
-polygon = PackedVector2Array(6.0252686, 2.3381653, 0.98921967, 5.5756226, -6.0777435, 4.961128, -6.9245605, 1.079155, -2.0683746, -14.568558, 1.528801, -14.388695, 4.5863953, -2.5180206)
+polygon = PackedVector2Array(6.02527, 2.33817, 0.98922, 5.57562, -6.07774, 4.96113, -6.92456, 1.07915, -2.06837, -14.5686, 1.5288, -14.3887, 4.5864, -2.51802)
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_0b136"]
-polygon = PackedVector2Array(-2.2482376, -65.28872, -22.572273, -59.35338, -26.888882, -33.273865, -20.953545, -14.388695, -5.66555, -11.3311, -7.228836, -4.385582, -16, 0, -5.125969, 7.194351, 14.279297, 0.86035156, 8.883539, -3.5582306, 7.464134, -12.230392, 19.514671, -14.208839, 27.608315, -29.316975, 22.752129, -57.554794)
+polygon = PackedVector2Array(-2.24824, -65.2887, -22.5723, -59.3534, -26.8889, -33.2739, -20.9535, -14.3887, -5.66555, -11.3311, -7.22884, -4.38558, -16, 0, -5.12597, 7.19435, 14.2793, 0.860352, 8.88354, -3.55823, 7.46413, -12.2304, 19.5147, -14.2088, 27.6083, -29.317, 22.7521, -57.5548)
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_7d2qa"]
-polygon = PackedVector2Array(6.0252686, 2.3381653, 0.98921967, 5.5756226, -6.0777435, 4.961128, -6.9245605, 1.079155, -2.0683746, -14.568558, 1.528801, -14.388695, 4.5863953, -2.5180206)
+polygon = PackedVector2Array(6.02527, 2.33817, 0.98922, 5.57562, -6.07774, 4.96113, -6.92456, 1.07915, -2.06837, -14.5686, 1.5288, -14.3887, 4.5864, -2.51802)
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_0j8st"]
-polygon = PackedVector2Array(6.0252686, 2.3381653, 0.98921967, 5.5756226, -6.0777435, 4.961128, -6.9245605, 1.079155, -2.0683746, -14.568558, 1.528801, -14.388695, 4.5863953, -2.5180206)
+polygon = PackedVector2Array(6.02527, 2.33817, 0.98922, 5.57562, -6.07774, 4.96113, -6.92456, 1.07915, -2.06837, -14.5686, 1.5288, -14.3887, 4.5864, -2.51802)
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_nl5p1"]
-polygon = PackedVector2Array(23.111847, -78.59826, -9.262726, -82.195435, -28.68747, -58.27423, -25.27015, -27.338524, -5.1259766, -19.24488, -6.9245605, -9.5325165, -16, 0, -5.125969, 7.194351, 14.279297, 0.86035156, 5.8454056, -9.5325165, 6.744705, -18.345589, 21.852837, -21.583046, 30.306198, -41.367504)
+polygon = PackedVector2Array(23.1118, -78.5983, -9.26273, -82.1954, -28.6875, -58.2742, -25.2701, -27.3385, -5.12598, -19.2449, -6.92456, -9.53252, -16, 0, -5.12597, 7.19435, 14.2793, 0.860352, 5.84541, -9.53252, 6.74471, -18.3456, 21.8528, -21.583, 30.3062, -41.3675)
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_dloas"]
-polygon = PackedVector2Array(6.0252686, 2.3381653, 0.98921967, 5.5756226, -6.0777435, 4.961128, -6.9245605, 1.079155, -2.0683746, -14.568558, 1.528801, -14.388695, 4.5863953, -2.5180206)
+polygon = PackedVector2Array(6.02527, 2.33817, 0.98922, 5.57562, -6.07774, 4.96113, -6.92456, 1.07915, -2.06837, -14.5686, 1.5288, -14.3887, 4.5864, -2.51802)
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_uj7n0"]
-polygon = PackedVector2Array(6.0252686, 2.3381653, 0.98921967, 5.5756226, -6.0777435, 4.961128, -6.9245605, 1.079155, -2.0683746, -14.568558, 1.528801, -14.388695, 4.5863953, -2.5180206)
+polygon = PackedVector2Array(6.02527, 2.33817, 0.98922, 5.57562, -6.07774, 4.96113, -6.92456, 1.07915, -2.06837, -14.5686, 1.5288, -14.3887, 4.5864, -2.51802)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1enjl"]
 texture = ExtResource("1_n7qot")
@@ -802,23 +802,23 @@ tile_size = Vector2i(32, 16)
 occlusion_layer_0/light_mask = 1
 terrain_set_0/mode = 0
 terrain_set_0/terrain_0/name = "Water"
-terrain_set_0/terrain_0/color = Color(1, 0.9609375, 0, 1)
+terrain_set_0/terrain_0/color = Color(1, 0.960938, 0, 1)
 terrain_set_0/terrain_1/name = " DarkWater"
-terrain_set_0/terrain_1/color = Color(0.4347992, 0.80078125, 0.5005616, 1)
+terrain_set_0/terrain_1/color = Color(0.434799, 0.800781, 0.500562, 1)
 terrain_set_0/terrain_2/name = "Dirt"
-terrain_set_0/terrain_2/color = Color(0.67578125, 0, 0, 1)
+terrain_set_0/terrain_2/color = Color(0.675781, 0, 0, 1)
 terrain_set_0/terrain_3/name = "Rock"
-terrain_set_0/terrain_3/color = Color(0.80957913, 0.26541138, 0.87109375, 1)
+terrain_set_0/terrain_3/color = Color(0.809579, 0.265411, 0.871094, 1)
 terrain_set_0/terrain_4/name = "Grass"
-terrain_set_0/terrain_4/color = Color(0.38601685, 0.6347842, 0.7109375, 1)
+terrain_set_0/terrain_4/color = Color(0.386017, 0.634784, 0.710938, 1)
 terrain_set_1/mode = 0
 terrain_set_1/terrain_0/name = "FullGrass"
-terrain_set_1/terrain_0/color = Color(0.2509804, 0.31960785, 0.5019608, 1)
+terrain_set_1/terrain_0/color = Color(0.25098, 0.319608, 0.501961, 1)
 terrain_set_1/terrain_1/name = "FullDirt"
 terrain_set_1/terrain_1/color = Color(0.5, 0.4375, 0.25, 1)
 terrain_set_2/mode = 0
 terrain_set_2/terrain_0/name = "Trees"
-terrain_set_2/terrain_0/color = Color(0.77734375, 0.5894604, 0.47673035, 1)
+terrain_set_2/terrain_0/color = Color(0.777344, 0.58946, 0.47673, 1)
 terrain_set_2/terrain_1/name = "Round Tree 1"
-terrain_set_2/terrain_1/color = Color(0.2509804, 0.5019608, 0.47254905, 1)
+terrain_set_2/terrain_1/color = Color(0.25098, 0.501961, 0.472549, 1)
 sources/0 = SubResource("TileSetAtlasSource_1enjl")
