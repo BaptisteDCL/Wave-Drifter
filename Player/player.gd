@@ -185,12 +185,14 @@ func _on_damage_area_body_entered(body: Node2D) -> void:
 
 func _on_exp_collection_radius_body_entered(body: Node2D) -> void:
 	if body is Exp_Orb:
-		Globals.exp_collected.emit()
+		for i in range(5):
+			Globals.exp_collected.emit()
 		body.queue_free()
 	if body is Repair:
 		Signals.repair_collected.emit()
 		if health + 30 > player_max_health:
 			health = player_max_health
+			Globals.exp_collected.emit()
 			SoundManager.play_repairBoat()
 		else:
 			health += 30

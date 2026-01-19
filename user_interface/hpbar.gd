@@ -46,7 +46,7 @@ func _on_player_isometric_shake_hp_bar() -> void:
 	shaker.start()
 
 func _on_playheart_beat_timeout() -> void:
-	if health_progress.value <= health_progress.max_value * 0.33 && health_progress.value > 0:
+	if health_progress.value <= health_progress.max_value * 0.1 && health_progress.value > 0:
 		SoundManager.apply_bgm_filter()
 		SoundManager.start_heartBeat()
 		low_hp_vignette.visible = true

@@ -33,14 +33,14 @@ gravity = Vector3(0, 0, 0)
 scale_min = 0.5
 scale_max = 0.5
 scale_curve = SubResource("CurveTexture_ot78t")
-color = Color(1, 0.23137255, 0.09803922, 1)
+color = Color(1, 0.231373, 0.0980392, 1)
 color_ramp = SubResource("GradientTexture1D_gfbru")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_gfbru"]
 shader = ExtResource("9_63ruo")
 shader_parameter/vignette_intensity = 0.59
 shader_parameter/vignette_opacity = 0.5
-shader_parameter/vignette_rgb = Color(0.3828125, 0.0463562, 0.0463562, 1)
+shader_parameter/vignette_rgb = Color(0.382813, 0.0463562, 0.0463562, 1)
 
 [node name="HPbarExperienceBar" type="CanvasLayer"]
 script = ExtResource("1_hv2af")
@@ -67,7 +67,7 @@ unique_name_in_owner = true
 layout_mode = 0
 offset_left = 48.0
 offset_top = 15.0
-offset_right = 240.0
+offset_right = 183.0
 offset_bottom = 63.0
 value = 100.0
 texture_progress = ExtResource("2_hv2af")
