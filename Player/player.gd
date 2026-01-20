@@ -133,9 +133,9 @@ func _physics_process(delta) -> void:
 			Globals.camera.shake(0.15, 10, 5)
 			move_and_slide()
 		
-		if health <= 0:
-			isDead = true
-			dead_player()
+		#if health <= 0:
+			#isDead = true
+			#dead_player()
 
 
 func shoot():
@@ -171,10 +171,10 @@ func spawn_bounce_particles(pos: Vector2, normal: Vector2) -> void:
 
 func _on_damage_area_body_entered(body: Node2D) -> void:
 	if $damage_interval_timer.is_stopped() and body is Enemy:
-		health -= body.enemy_stats.damage
+		#health -= body.enemy_stats.damage
 		print("hit")
 		self.animation_player.play("hit_shock")
-		Globals.camera.shake(0.5, 15, 10)
+		Globals.camera.shake(500, 15, 10)
 		print("Player Health: ", health, "Damaged by: ", body.enemy_stats.type)
 		$damage_interval_timer.start()
 	elif $damage_interval_timer.is_stopped() and body is Enemy_Bullet:
